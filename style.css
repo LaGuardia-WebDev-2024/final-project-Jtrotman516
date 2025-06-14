@@ -1,45 +1,32 @@
-/* Styling Only Related To ALL Pages */
-
 body {
-  padding-top: 30px;
-  margin-left: 0px;
-  margin-right: 0px;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
 }
-/* ⬆⬆⬆⬆ Nav Bar Styling 
-~~~~~ Taken From: 
-https://www.w3schools.com/css/css_navbar_horizontal.asp */
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-}
-
-ul.nav li {
-  float: left;
-}
-
-ul.nav li a {
-  display: block;
-  color: white;
+header, footer {
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+}
+nav a {
+  margin: 0 10px;
   text-decoration: none;
+  color: #0077cc;
 }
-
-ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+nav a:hover {
+  text-decoration: underline;
 }
-
-ul.nav .active {
-  background-color: red;
+main {
+  margin: 20px auto;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
 }
-
-h1 {
-  width: 100%;
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
